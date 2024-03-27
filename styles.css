@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #ecdccd; */
+    /* font-size: 30px; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: start;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.navbar li {
+    padding-right: 25px;
+    border-right-style: solid;
+    border-right-color: grey;
+}
+.display {
+    /* margin: 50px; */
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.display h1, .info h2 {
+    margin-bottom: 20px;
+}
+
+.info {
+    margin: 10px 0px 10px 50px;
+    /* background: blueviolet; */
+}
+
+.display .photo {
+    width: 200px;
+    height: 200px;
+    /* background-color: aquamarine; */
+}
+.display .photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+ul.skill {
+    list-style-type: disc;
+    margin-left: 50px;
+}
+
+ul li {
+    margin-left: 2em;
+}
+
+.workexperience {
+    margin: 50px;
+    
+    /* background-color: aquamarine; */
+}
+
+.workexperience h1 {
+    margin-bottom: 50px;
+}
+.frame {
+    border-collapse: collapse;
+    margin-left: 50px;
+    width: 90%;
+    
+    
+}
+
+ .frame th, .frame td {
+    text-align: center;
+    border: 1px solid black;
+    margin-left: 100px;
+    padding: 1rem;
+    width: 400px
+    border-radius: 20px;
+}
+
+.tableinfo td {
+    text-align: left;
+
+}
+
+.contactform {
+    margin: 100px;
+    padding: 100px;
+    border: 1px solid black;
+    /* background-color: aqua; */
+    text-align: left;
+    
+}
+fieldset {
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+
+input, select, textarea {
+    width: 50%;
+}
+
+.footer {
+    margin-left: 50px;
+}
